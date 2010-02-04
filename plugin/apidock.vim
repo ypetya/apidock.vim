@@ -1,5 +1,10 @@
-let g:browser = 'firefox -new-tab '
-" On OSX - let g:browser = 'open -a /Applications/Firefox.app'
+" USE_RAKE_TO_DETECT_PLATFORM_OR_UNCOMMENT_THE_CORRECT_LINE
+" LINUX: 
+" let g:browser = 'xdg-open'
+" WINDOWS: 
+" let g:browser = 'firefox -new-tab'
+" OSX: 
+" let g:browser = 'open -a /Applications/Firefox.app'
 
 " Open the Ruby ApiDock page for the word under cursor, in a new Firefox tab
 function! OpenRubyDoc(keyword)
